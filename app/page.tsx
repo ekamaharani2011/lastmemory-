@@ -8,24 +8,86 @@ export default function Home() {
   const [showGallery, setShowGallery] = useState(false);
 
   const userImages = [
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg',
-    '/1.jpeg'
-  ];
+    
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
 
-  return (
+  '/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+'/IMG-20260818-WA0008.jpg',
+'/IMG-20260818-WA0001.jpg',
+'/IMG-20260804-WA0000.jpg',
+];
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+  
+
+  
     <main className="min-h-screen bg-black text-white overflow-hidden planar-background">
       {!showGallery ? (
         <InteractionFlow onComplete={() => setShowGallery(true)} />
